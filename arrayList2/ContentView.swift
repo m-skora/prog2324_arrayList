@@ -7,18 +7,27 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
+struct Task: Identifiable {
+    var id = UUID()
+    var name: String
+    var description: String
+    var imageName: String
 }
 
-#Preview {
-    ContentView()
+struct ContentView: View {
+    let tasks: [Task] = [
+        Task(name: "Task 1", description: "Description for Task 1", imageName: "task1"),
+        Task(name: "Task 2", description: "Description for Task 2", imageName: "task2"),
+    ]
+
+    var body: some View {
+        NavigationView {
+            List(tasks) { task in
+                NavigationLink(destination: TaskDetailView(task: task)) {
+                        Text(task.name)
+                }
+            }
+            .navigationBarTitle("Task List")
+        }
+    }
 }

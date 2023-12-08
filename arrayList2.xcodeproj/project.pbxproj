@@ -14,6 +14,7 @@
 		D0BA38572B2380FA00102462 /* arrayList2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA38562B2380FA00102462 /* arrayList2Tests.swift */; };
 		D0BA38612B2380FA00102462 /* arrayList2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA38602B2380FA00102462 /* arrayList2UITests.swift */; };
 		D0BA38632B2380FA00102462 /* arrayList2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA38622B2380FA00102462 /* arrayList2UITestsLaunchTests.swift */; };
+		D0BA38702B2381DA00102462 /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA386F2B2381DA00102462 /* TaskDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D0BA385C2B2380FA00102462 /* arrayList2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arrayList2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BA38602B2380FA00102462 /* arrayList2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arrayList2UITests.swift; sourceTree = "<group>"; };
 		D0BA38622B2380FA00102462 /* arrayList2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arrayList2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0BA386F2B2381DA00102462 /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				D0BA38472B2380F700102462 /* ContentView.swift */,
 				D0BA38492B2380FA00102462 /* Assets.xcassets */,
 				D0BA384B2B2380FA00102462 /* Preview Content */,
+				D0BA386F2B2381DA00102462 /* TaskDetailView.swift */,
 			);
 			path = arrayList2;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				D0BA38482B2380F700102462 /* ContentView.swift in Sources */,
 				D0BA38462B2380F700102462 /* arrayList2App.swift in Sources */,
+				D0BA38702B2381DA00102462 /* TaskDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
